@@ -1,0 +1,109 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Student1",
+      "location": "India",
+      "phone": "9000000001",
+      "courses": ["Java", "Selenium"]
+    },
+    {
+      "id": 2,
+      "name": "Student2",
+      "location": "US",
+      "phone": "9000000002",
+      "courses": ["Python", "Appium"]
+    },
+    {
+      "id": 3,
+      "name": "Student3",
+      "location": "Canada",
+      "phone": "9000000003",
+      "courses": ["C#", "RestAPI"]
+    },
+    {
+      "id": 4,
+      "name": "Student4",
+      "location": "UK",
+      "phone": "9000000004",
+      "courses": ["JavaScript", "Angular"]
+    },
+    {
+      "id": 5,
+      "name": "Student5",
+      "location": "Australia",
+      "phone": "9000000005",
+      "courses": ["Node.js", "Selenium"]
+    },
+    {
+      "id": 6,
+      "name": "Student6",
+      "location": "India",
+      "phone": "9000000006",
+      "courses": ["Java", "Selenium"]
+    },
+    {
+      "id": 7,
+      "name": "Student7",
+      "location": "US",
+      "phone": "9000000007",
+      "courses": ["Python", "Appium"]
+    },
+    {
+      "id": 8,
+      "name": "Student8",
+      "location": "Canada",
+      "phone": "9000000008",
+      "courses": ["C#", "RestAPI"]
+    },
+    {
+      "id": 9,
+      "name": "Student9",
+      "location": "UK",
+      "phone": "9000000009",
+      "courses": ["JavaScript", "Angular"]
+    },
+    {
+      "id": 10,
+      "name": "Student10",
+      "location": "Australia",
+      "phone": "9000000010",
+      "courses": ["Node.js", "Selenium"]
+    },
+    {
+      "id": 11,
+      "name": "Student11",
+      "location": "India",
+      "phone": "9000000011",
+      "courses": ["Java", "Selenium"]
+    },
+    {
+      "id": 12,
+      "name": "Student12",
+      "location": "US",
+      "phone": "9000000012",
+      "courses": ["Python", "Appium"]
+    },
+    {
+      "id": 13,
+      "name": "Student13",
+      "location": "Canada",
+      "phone": "9000000013",
+      "courses": ["C#", "RestAPI"]
+    },
+    {
+      "id": 14,
+      "name": "Student14",
+      "location": "UK",
+      "phone": "9000000014",
+      "courses": ["JavaScript", "Angular"]
+    },
+    {
+      "id": 15,
+      "name": "Student15",
+      "location": "Australia",
+      "phone": "9000000015",
+      "courses": ["Node.js", "Selenium"]
+    }    
+  ]
+}
