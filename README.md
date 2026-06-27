@@ -25,3 +25,9 @@ Can text() be used for input fields?
 Answer: No. text() works only for elements that contain visible text between opening and closing tags. Input fields do not have inner text; their data is stored in attributes such as value, name, or placeholder.
 <img width="995" height="440" alt="image" src="https://github.com/user-attachments/assets/2ddb4231-282d-4a6b-ac1f-5cae690bae87" />
 
+//xpath with partial Text --> contains()
+		// //tagname[contains(@attribute,'partialValue')]
+		//The contains() function takes two arguments separated by a comma:
+		//contains() is used when the attribute value is dynamic or only partially known. It performs a partial match.
+		driver.findElement(By.xpath("//input[contains(@placeholder, 'lastname')]")).sendKeys("Kuar");
+
