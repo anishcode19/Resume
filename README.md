@@ -19,3 +19,9 @@ driver.findElement(By.xpath("//a[text()='Marketplaces']")).click();
 //    Their values are stored in attributes such as value, placeholder, name, etc.
 // 3. Link text is the visible text of an <a> (anchor) tag.
 // 4. Every LinkText is an inner text, but every inner text is not a LinkText.
+
+Can text() be used for input fields?
+
+Answer: No. text() works only for elements that contain visible text between opening and closing tags. Input fields do not have inner text; their data is stored in attributes such as value, name, or placeholder.
+<img width="995" height="440" alt="image" src="https://github.com/user-attachments/assets/2ddb4231-282d-4a6b-ac1f-5cae690bae87" />
+
