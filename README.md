@@ -31,3 +31,4 @@ Answer: No. text() works only for elements that contain visible text between ope
 		//contains() is used when the attribute value is dynamic or only partially known. It performs a partial match.
 		driver.findElement(By.xpath("//input[contains(@placeholder, 'lastname')]")).sendKeys("Kuar");
 
+<img width="832" height="445" alt="image" src="https://github.com/user-attachments/assets/ff426e72-475d-45c0-865a-c7768b27ed47" />
