@@ -32,3 +32,6 @@ Answer: No. text() works only for elements that contain visible text between ope
 		driver.findElement(By.xpath("//input[contains(@placeholder, 'lastname')]")).sendKeys("Kuar");
 
 <img width="832" height="445" alt="image" src="https://github.com/user-attachments/assets/ff426e72-475d-45c0-865a-c7768b27ed47" />
+
+
+get() adds the page to browser history, and navigate().back() will work if a previous page exists in that history. Otherwise, there is nowhere to go back to.
