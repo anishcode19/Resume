@@ -35,3 +35,4 @@ Answer: No. text() works only for elements that contain visible text between ope
 
 
 get() adds the page to browser history, and navigate().back() will work if a previous page exists in that history. Otherwise, there is nowhere to go back to.
+Can we use navigate().back() after get()?
