@@ -36,3 +36,13 @@ Answer: No. text() works only for elements that contain visible text between ope
 
 get() adds the page to browser history, and navigate().back() will work if a previous page exists in that history. Otherwise, there is nowhere to go back to.
 Can we use navigate().back() after get()?
+
+Does navigate().to() internally call get()?
+
+A: Functionally, yes. Both methods load a new web page in the current browser window and send the same navigation command to the browser. The main difference is API organization:
+
+driver.get(url) → directly loads a URL.
+driver.navigate().to(url) → loads a URL through the Navigation interface, which also provides:
+back()
+forward()
+refresh()
